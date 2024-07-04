@@ -1,0 +1,18 @@
+.border-bottom{
+    border-bottom: 20px !important;
+    
+}
+
+.cell{
+    cursor: pointer !important;
+}
+.fixed-table {
+    height: 200px; /* Set a fixed height for the table */
+}
+
+.fixed-table td {
+    width: 33.33%; /* Ensures each cell takes an equal width */
+    height: calc(100% / 3); /* Ensures each cell takes an equal height */
+    vertical-align: middle; /* Centers content vertically */
+    text-align: center; /* Centers content horizontally */
+}
